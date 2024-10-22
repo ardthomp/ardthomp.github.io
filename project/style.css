@@ -1,0 +1,269 @@
+body {
+    background-color: #FAD2E0;
+    line-height: 1.4em;
+}
+nav {
+    text-align: center;
+}
+h1 {
+    color: #E81E63;
+    text-align: center;
+    font-family: "Gill Sans", sans-serif;
+    margin-top: 1.5em;
+}
+h2 {
+    color: #E81E63;
+    text-align: center;
+    font-family: "Gill Sans", sans-serif;
+    font-size: 1em;
+}
+p {
+    font-family: "Gill Sans", sans-serif;
+    margin-left: 15%;
+    margin-right: 15%;
+    line-height: 1.3em;
+  }
+.p1 {
+    font-family: "Gill Sans", sans-serif;
+    line-height: 1.3em;
+    margin-left: 0;
+    margin-right: 0;
+}
+.p2 {
+    font-family: "Gill Sans", sans-serif;
+    color: #E81E63;
+    font-weight: bolder;
+    margin: 0px;
+    margin-bottom: 0.25em;
+    margin-top: 1em;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.list {
+    font-family: "Gill Sans", sans-serif;
+    line-height: 1.3em;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+/* I used these sources to help with the links: https://www.w3schools.com/css/css_link.asp and https://stackoverflow.com/questions/7565907/is-it-possible-to-use-multiple-link-styles-in-css */
+#altlink {
+/* the CSS validator doesn't recognize the a:link, but we confirmed during your office hours that it works! */
+a:link {
+        color: #E81E63;
+      }
+a:visited {
+        color: maroon;
+    }
+a:hover {
+        color: hotpink;
+    }
+/* The CSS validator says that the bracket below is a parse error because it doesn't recognize #altlink so it doesn't realize I need to close that bracket */
+}
+a:hover {
+    color: rgb(243, 168, 205);
+}
+.picture-caption {
+    color: maroon;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.3em;
+    font-size: 0.5em;
+    max-width: 100%;
+    font-family: "Gill Sans", sans-serif;
+    font-style: italic;
+    color: #E81E63;
+}
+.picture-caption-singlespaced
+{
+    color: maroon;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.5em;
+    font-size: 0.5em;
+    max-width: 100%;
+    font-family: "Gill Sans", sans-serif;
+    font-style: italic;
+    color: #E81E63;
+    line-height: 1.3em;
+}
+.table-caption {
+    text-align: left;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 1em;
+    font-family: "Gill Sans", sans-serif;
+    font-style: italic;
+    color: #E81E63;
+}
+/* I used this source to help me with tables: https://www.w3schools.com/css/css_table.asp */
+table, th, td {
+    border: 1px solid;
+    border-color: black;
+}
+table {
+    width: 70%;
+    border-collapse: collapse;
+    padding: 1em;
+    height: auto;
+    float: none;
+    border: solid;
+    border-color: black;
+    font-family: "Gill Sans", sans-serif;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+/* I got help with aligning text here: https://www.w3schools.com/css/css_table_align.asp */
+td {
+    text-align: left;
+    font-family: "Gill Sans", sans-serif;
+    padding: 0.5em;
+  }
+th {
+    text-align: left;
+    text-transform: uppercase;
+    font-family: "Gill Sans", sans-serif;
+    padding: 0.5em;
+}
+ol {
+    font-family: "Gill Sans", sans-serif;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+ul {
+    font-family: "Gill Sans", sans-serif;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+/*I got help with spacing elements from: https://codepen.io/marklchaves/pen/PowgQd */
+  .ulno-space {
+    margin-top: 0;
+    padding-left: 1em;
+  }  
+  .ul-lessindent {
+    margin-left: 0%;
+}
+.center {
+    width: 100%;
+    padding: 1em;
+    height: auto;
+    text-align: center;
+}
+.row {
+    display: flex;
+}
+.column-1 { 
+    width: 33%;
+    padding: 1em;
+    height: auto;
+}
+.column1_image1 {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    margin-left: 30%;
+    border: 3px solid black;
+  }
+.column-2 {
+    display:flex;
+    width: 33%;
+    padding: 1em;
+    height: auto;
+}
+.column2_image2 {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    display: block;
+    border: 3px solid black;
+  }
+.column-3 {
+    width: 33%;
+    padding: 1em;
+    height: auto;
+}
+.column3_image3 {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    margin-left: -30%;
+    border: 3px solid black;
+  }
+  .column-left {
+    width: 55%;
+    height: auto;
+    float: left;
+    text-align: left;
+    margin-left: 10%;
+}
+.column-left2 {
+    width: 49%;
+    height: auto;
+    float: left;
+    text-align: left;
+    border: 3px solid black;
+}
+.column-right2 {
+    width: 30%;
+    height: auto;
+    text-align: left;
+    float: right;
+    border: 3px solid black;
+}
+.column-left-img {
+    width: 400px;
+    height: auto;
+    margin: auto;
+    display: block;
+}
+.column-right {
+    width: 30%;
+    height: auto;
+    float: right;
+}
+.column-right-img {
+    height: 25em;
+    width: auto;
+    margin-left: -60%;
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.small-ribbon {
+    width: 50px;
+    height: 75px;
+    margin-top: 25px;
+    margin: auto;
+    display: block;
+}
+/* I got help with button CSS: https://www.reddit.com/r/html5/comments/u7o29l/how_to_create_a_button_that_works_as_a_link_to/ */
+.button {
+    position: sticky;
+    top: 0%;
+    background-color: #E81E63;
+    border: solid;
+    border-radius: 1em;
+    border-color:black;
+    text-align: center;
+    font-size: 1em;
+    text-decoration: none;
+    color: #FDE9EF;
+    padding: 0.3em;
+    font-family: "Gill Sans", sans-serif;
+    margin: 0.1em;
+}
+/* I got help with footer CSS: https://www.w3schools.com/howto/howto_css_fixed_footer.asp and https://developer.mozilla.org/en-US/docs/Web/CSS/ID_selectors */
+#footer {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    height: 1.6em;
+    width: 100%;
+    background-color: #E81E63;
+    text-align: center;
+    font-size: 0.75em;
+    color: #FDE9EF;
+    font-family: "Gill Sans", sans-serif;
+    margin-top: 10%;
+}
